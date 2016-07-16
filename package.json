@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/thefourtheye/git-hacks/issues"
   },
-  "homepage": "https://github.com/thefourtheye/git-hacks#readme"
+  "homepage": "https://github.com/thefourtheye/git-hacks#readme",
+  "dependencies": {
+    "eslint": "^3.1.0"
+  }
 }
