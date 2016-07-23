@@ -23,6 +23,9 @@ module.exports = {
     'max-len': [
       'error',
       100
+    ],
+    'console': [
+      'allow'
     ]
   }
 };
