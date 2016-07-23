@@ -1,7 +1,7 @@
 var exec = require('child_process').execSync;
 var extend = require('util')._extend;
 
-function isGitAvailable(callback) {
+function isGitAvailable() {
   var env = extend({}, process.env);
   try {
     exec('git --version', {
